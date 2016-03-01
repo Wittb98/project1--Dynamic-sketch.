@@ -127,7 +127,10 @@ void keyPressed() {
 
 
 ////for the countdown from 100 after getting  (int i=100,i>=0, i=i-1);
-
+//if( n % 2 ){ ////this is to make a pacman who has an open mouth on even numbered frames and closed on odd frames
+  //arc(pacX, pacY, 120,120, PI/4, 1.75*PI, PIE);
+//} else{
+  //arc(pacX, pacY,120,120, PI/8, 1.875*PI, PIE);
 
 
 
