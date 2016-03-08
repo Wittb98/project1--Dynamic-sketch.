@@ -52,7 +52,39 @@ void scene() {
   rect(400, 200, 40, 60);                  //Crayola Beaver-Brown Tree trunk?
   
   fill(0, 255, 0);
-  triangle(380, 200, 420, 100, 460, 200);    //Green Evergreen
+  triangle(380, 140, 420,  40, 460, 140);
+  triangle(380, 150, 420,  50, 460, 150);
+  triangle(380, 160, 420,  60, 460, 160);
+  triangle(380, 170, 420,  70, 460, 170);
+  triangle(380, 180, 420,  80, 460, 180);
+  triangle(380, 190, 420,  90, 460, 190);
+  triangle(380, 200, 420, 100, 460, 200);  //Green Evergreen
+  
+  fill(146, 111, 91);
+  rect(500, 200, 40, 60);                  //Crayola Beaver-Brown Tree trunk?
+  
+  fill(0, 255, 0);
+  triangle(480, 140, 520,  40, 560, 140);
+  triangle(480, 150, 520,  50, 560, 150);
+  triangle(480, 160, 520,  60, 560, 160);
+  triangle(480, 170, 520,  70, 560, 170);
+  triangle(480, 180, 520,  80, 560, 180);
+  triangle(480, 190, 520,  90, 560, 190);
+  triangle(480, 200, 520, 100, 560, 200);  //Green Evergreen
+  
+  fill(146, 111, 91);
+  rect(300, 200, 40, 60);                  //Crayola Beaver-Brown Tree trunk?
+  
+  fill(0, 255, 0);
+  triangle(280, 140, 320,  40, 360, 140);
+  triangle(280, 150, 320,  50, 360, 150);
+  triangle(280, 160, 320,  60, 360, 160);
+  triangle(280, 170, 320,  70, 360, 170);
+  triangle(280, 180, 320,  80, 360, 180);
+  triangle(280, 190, 320,  90, 360, 190);
+  triangle(280, 200, 320, 100, 360, 200);  //Green Evergreen
+ 
+  
 }
 //ACTION:  Sun moves across the sky, when it sets, another immediately rises
 void action() {
@@ -126,13 +158,12 @@ void keyPressed() {
 
 
 
-////for the countdown from 100 after getting  (int i=100,i>=0, i=i-1);
+/*////for the countdown from 100 after getting  (int i=100,i>=0, i=i-1);
 //if( n % 2 ){ ////this is to make a pacman who has an open mouth on even numbered frames and closed on odd frames
-  //arc(pacX, pacY, 120,120, PI/4, 1.75*PI, PIE);
-//} else{
-  //arc(pacX, pacY,120,120, PI/8, 1.875*PI, PIE);
-
-
+  arc(pacX, pacY, 120,120, PI/4, 1.75*PI, PIE);
+} else{
+  arc(pacX, pacY,120,120, PI/8, 1.875*PI, PIE);
+*/
 
 
 
